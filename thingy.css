@@ -1,4 +1,3 @@
-@import url("https://eject37.github.io/DiscordTheme/BetterFont.css");
 @import url("https://eject37.github.io/DiscordTheme/HideTrash.css");
 
 :root {
@@ -12,7 +11,7 @@
     --boxshadow: inset 0 0 10px rgba(100, 100, 100, 0.1);
 }
 
-/* ✅ Main background container */
+/* ✅ Main background */
 .bg__960e4,
 .app__00c92,
 .layers_a01fb1 {
@@ -21,20 +20,26 @@
     backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
 }
 
-/* Make other layers transparent so background shows */
+/* ✅ Force all covering containers transparent */
 .app__00c92,
 .layers_a01fb1,
+.baseLayer__960e4,
 .container__037ed,
 .guilds__2b93a,
 .sidebar_a4d4d9,
 .chatContent__5d30c,
 .container_f79ab4,
-.container_b2ca13 {
+.container_b2ca13,
+.wrapper_f7ecac,
+.chat__52833,
+.container__01c8c,
+.membersWrap__5ca6b {
     background: transparent !important;
 }
 
 /* Calls */
-.visual-refresh .theme-darker, .visual-refresh.theme-darker {
+.visual-refresh .theme-darker,
+.visual-refresh.theme-darker {
     --background-base-lowest: transparent;
     --bg-base-tertiary: transparent;
     --background-tertiary: transparent;
@@ -63,7 +68,7 @@
     background: transparent !important;
 }
 .callContainer_cb9592 {
-    background: transparent;
+    background: transparent !important;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
     border-radius: 10px;
     border: var(--border-main);
