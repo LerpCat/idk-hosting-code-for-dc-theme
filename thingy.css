@@ -3,7 +3,7 @@
 
 :root {
     --app-bg: url("https://s12.gifyu.com/images/bvwhR.gif");
-    --blur-bg: 360px;
+    --blur-bg: 80px;
     --blur-other: 30px;
     --brightness-bg: 0.5;
 
@@ -271,4 +271,5 @@ button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5
 .wrapper_cb9592.minimum_cb9592 {
     background: transparent !important;
 }
+
 
