@@ -2,8 +2,8 @@
 @import url("https://eject37.github.io/DiscordTheme/HideTrash.css");
 
 :root {
-    --app-bg: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDR5cmR6ZjYydWxtYmpwc3pwOHBkNmZjbnRldHAxYzQxZDNsbmw1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jWPi1AH2XUfI6Q/giphy.gif");
-    --blur-bg: 80px;
+    --app-bg: url("https://s12.gifyu.com/images/bvwhR.gif");
+    --blur-bg: 360px;
     --blur-other: 30px;
     --brightness-bg: 0.5;
 
@@ -271,3 +271,4 @@ button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5
 .wrapper_cb9592.minimum_cb9592 {
     background: transparent !important;
 }
+
